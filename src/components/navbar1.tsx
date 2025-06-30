@@ -1,4 +1,4 @@
-import { Book, Heart, HeartPlus, Menu, Sunset, Trees, Zap } from "lucide-react";
+import { Book, HeartPlus, Menu, Sunset, Trees, Zap } from "lucide-react";
 
 import {
   Accordion,

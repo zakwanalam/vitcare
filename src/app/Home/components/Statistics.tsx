@@ -59,7 +59,7 @@ function Statistics() {
                     </CardHeader>
                     <CardContent>
                         <p className="text-sm text-muted-foreground">
-                            Join our growing community of satisfied clients who've achieved better health through our programs.
+                            Join our growing community of satisfied clients who&apos;ve achieved better health through our programs.
                         </p>
                     </CardContent>
                     <CardFooter className="text-xs text-muted-foreground">

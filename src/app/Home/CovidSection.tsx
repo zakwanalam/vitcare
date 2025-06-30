@@ -45,7 +45,7 @@ function CovidSection() {
                 <Clock className="bg-primary rounded-xl text-white w-10 h-10 p-2 aspect-square" />
                 <h5 className="font-bold">1 Hour Service</h5>
                 <p className="text-sm text-center md:text-left">
-                  "Fast response time with expert care delivered to you in under 60 minutes."
+                  Fast response time with expert care delivered to you in under 60 minutes.
                 </p>
               </div>
             </div>
