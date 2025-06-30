@@ -2,11 +2,9 @@
 import Image from 'next/image'
 import React from 'react'
 import doctorImg from '@public/doctor.png'
-import GlobalContainer from '@/components/GlobalContainer'
 import { motion } from "framer-motion";
 
 import { Button } from '@/components/ui/button'
-import { Navbar } from '@/components/navbar1'
 function HeroSection() {
   return (
     <motion.section id='hero' className="w-full py-40 max-md:px-20 relative overflow-hidden flex justify-center" initial={{ opacity: 0 }}
