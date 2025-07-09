@@ -10,16 +10,19 @@ import CovidSection from "./CovidSection";
 import { Footer } from "@/components/footer7";
 import Newsletter from "./components/Newsletter";
 import { Navbar } from "@/components/navbar1";
+import { cn } from "@/lib/utils";
 
 export default function Home() {
   return (
     <React.Fragment>
-      <GlobalContainer classname="  bg-white fixed z-40 shadow-2xl">
-        <div className="px-1.5 max-md:px-12">
+      <GlobalContainer classname="  bg-white fixed z-40 shadow-2xl ">
+        <div className="px-3">
           <Navbar />
         </div>
       </GlobalContainer>
-      <HeroSection />
+      {/* <GlobalContainer> */}
+        <HeroSection />
+      {/* </GlobalContainer> */}
       <GlobalContainer classname="py-10">
         <Statistics />
       </GlobalContainer>
