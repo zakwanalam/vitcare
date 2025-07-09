@@ -10,7 +10,6 @@ import CovidSection from "./CovidSection";
 import { Footer } from "@/components/footer7";
 import Newsletter from "./components/Newsletter";
 import { Navbar } from "@/components/navbar1";
-import { cn } from "@/lib/utils";
 
 export default function Home() {
   return (
